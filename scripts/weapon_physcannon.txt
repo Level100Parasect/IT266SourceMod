@@ -11,7 +11,7 @@ WeaponData
 	"bucket_position"	"1"
 	"bucket_360"			"2"
 	"bucket_position_360"	"1"
-	"clip_size"			"1"
+	"clip_size"			"0"
 	"clip2_size"		"0"
 	"primary_ammo"		"None"
 	"secondary_ammo"	"None"

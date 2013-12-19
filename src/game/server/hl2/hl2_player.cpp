@@ -75,10 +75,10 @@ extern int gEvilImpulse101;
 
 ConVar sv_autojump( "sv_autojump", "0" );
 
-ConVar hl2_walkspeed( "hl2_walkspeed", "80" );
+ConVar hl2_walkspeed( "hl2_walkspeed", "100" );
 ConVar hl2_normspeed( "hl2_normspeed", "100" );
 ConVar hl2_sprintspeed( "hl2_sprintspeed", "160" );
-//louis
+//louis //changing walking speeds, very nice
 
 ConVar hl2_darkness_flashlight_factor ( "hl2_darkness_flashlight_factor", "1" );
 
@@ -397,7 +397,7 @@ CHL2_Player::CHL2_Player()
 #ifdef HL2MP
 	CSuitPowerDevice SuitDeviceSprint( bits_SUIT_DEVICE_SPRINT, 25.0f );				// 100 units in 4 seconds
 #else
-	CSuitPowerDevice SuitDeviceSprint( bits_SUIT_DEVICE_SPRINT, 50.0f );				// louis
+	CSuitPowerDevice SuitDeviceSprint( bits_SUIT_DEVICE_SPRINT, 35.0f );				// louis
 #endif
 
 #ifdef HL2_EPISODIC

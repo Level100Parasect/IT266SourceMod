@@ -1,30 +1,37 @@
-// Crowbar
+// Pistol
 
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"	"#HL2_spear"
-	"viewmodel"				"models/weapons/v_crowbar.mdl"
-	"playermodel"			"models/weapons/w_crowbar.mdl"
-	"anim_prefix"			"crowbar"
-	"bucket"				"0"
-	"bucket_position"		"0"
-	"bucket_360"				"3"
-	"bucket_position_360"		"0"
+	"printname"	"#HL2_SPEAR"
+	"viewmodel"			"models/weapons/v_pistol.mdl"
+	"playermodel"		"models/weapons/w_pistol.mdl"
+	"anim_prefix"		"pistol"
+	"bucket"			"0"
+	"bucket_position"	"3"
+	"bucket_360"			"0"
+	"bucket_position_360"	"0"
 
-	"clip_size"				"24"
-	"primary_ammo"			"SMG1"
-	"secondary_ammo"		"None"
+	"clip_size"			"48"
+	"primary_ammo"		"SMG1"
+	"secondary_ammo"	"None"
 
-	"weight"				"0"
-	"item_flags"			"0"
+	"weight"		"2"
+	"rumble"		"1"
+	"item_flags"		"0"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"single_shot"		"Weapon_Crowbar.Single"
-		"melee_hit"			"Weapon_Crowbar.Melee_Hit"
-		"melee_hit_world"	"Weapon_Crowbar.Melee_HitWorld"
+
+		"reload"		"Weapon_Pistol.Reload"
+		"reload_npc"	"Weapon_Pistol.NPC_Reload"
+		"empty"			"Weapon_Pistol.Empty"
+		"single_shot"	"Weapon_Pistol.Single"
+		"single_shot_npc"	"Weapon_Pistol.NPC_Single"
+		"special1"		"Weapon_Pistol.Special1"
+		"special2"		"Weapon_Pistol.Special2"
+		"burst"			"Weapon_Pistol.Burst"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -33,17 +40,22 @@ WeaponData
 		"weapon"
 		{
 				"font"		"WeaponIcons"
-				"character"	"c"
+				"character"	"d"
 		}
 		"weapon_s"
 		{	
 				"font"		"WeaponIconsSelected"
-				"character"	"c"
+				"character"	"d"
+		}
+		"weapon_small"
+		{
+				"font"		"WeaponIconsSmall"
+				"character"	"d"
 		}
 		"ammo"
 		{
-				"font"		"WeaponIcons"
-				"character"	"c"
+				"font"		"WeaponIconsSmall"
+				"character"	"p"
 		}
 		"crosshair"
 		{
@@ -52,11 +64,11 @@ WeaponData
 		}
 		"autoaim"
 		{
-			"file"		"sprites/crosshairs"
-			"x"			"0"
-			"y"			"48"
-			"width"		"24"
-			"height"	"24"
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
 		}
 	}
 }

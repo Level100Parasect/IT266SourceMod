@@ -17,8 +17,8 @@
 #error weapon_crowbar.h must not be included in hl2mp. The windows compiler will use the wrong class elsewhere if it is.
 #endif
 
-#define	CROWBAR_RANGE	100.0f
-#define	CROWBAR_REFIRE	0.8f
+#define	CROWBAR_RANGE	40.0f
+#define	CROWBAR_REFIRE	1.0f
 //louis
 
 //-----------------------------------------------------------------------------

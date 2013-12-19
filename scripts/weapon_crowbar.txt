@@ -12,7 +12,10 @@ WeaponData
 	"bucket_360"				"2"
 	"bucket_position_360"		"0"
 
-	"clip_size"				"12"
+	"clip_size"				"36"
+
+	"default_clip"			"36"
+
 	"primary_ammo"			"SMG1"
 	"secondary_ammo"		"None"
 
