@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose:		Player for HL2.
 //
@@ -78,7 +78,8 @@ ConVar sv_autojump( "sv_autojump", "0" );
 ConVar hl2_walkspeed( "hl2_walkspeed", "100" );
 ConVar hl2_normspeed( "hl2_normspeed", "100" );
 ConVar hl2_sprintspeed( "hl2_sprintspeed", "160" );
-//louis //changing walking speeds, very nice
+//louis //jp368 changing walking speeds, very nice
+//jp368 changing the flash light didn't do much
 
 ConVar hl2_darkness_flashlight_factor ( "hl2_darkness_flashlight_factor", "1" );
 
