@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose: 
 //
@@ -29,7 +29,7 @@ STUB_WEAPON_CLASS( weapon_ar2, WeaponAR2, C_HLMachineGun );
 STUB_WEAPON_CLASS( weapon_frag, WeaponFrag, C_BaseHLCombatWeapon );
 STUB_WEAPON_CLASS( weapon_rpg, WeaponRPG, C_BaseHLCombatWeapon );
 STUB_WEAPON_CLASS( weapon_pistol, WeaponPistol, C_BaseHLCombatWeapon );
-STUB_WEAPON_CLASS( weapon_spear, WeaponSpear, C_BaseHLCombatWeapon );
+STUB_WEAPON_CLASS( weapon_spear, WeaponSpear, C_BaseHLCombatWeapon );//jp368 the spear doesn't have an entity?
 STUB_WEAPON_CLASS( weapon_shotgun, WeaponShotgun, C_BaseHLCombatWeapon );
 STUB_WEAPON_CLASS( weapon_smg1, WeaponSMG1, C_HLSelectFireMachineGun );
 STUB_WEAPON_CLASS( weapon_357, Weapon357, C_BaseHLCombatWeapon );
